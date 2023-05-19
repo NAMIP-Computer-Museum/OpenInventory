@@ -1,0 +1,537 @@
+/* Création d'une bonne base pour le design */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* --- Navbar --- */
+.navbar {
+    position: relative;
+    top: 0; 
+    left: 0;
+    right: 0; 
+    background-color: transparent;
+    transition: background-color 0.5s ease-in-out;
+    box-shadow: none;
+    z-index: 998; /* Ajoutez cette propriété pour fixer la profondeur */
+    color: white; /* Couleur du texte en blanc */
+    height: 90px;
+}
+
+/* Couleur des titres de la navbar */
+.navbar-default .navbar-nav > li > a {
+    color: #FFFF;
+}
+/* Design de l'image d'arrière plan */
+.background_img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    z-index: -1;
+}
+/* Titre présent sur l'image d'arrière plan */
+.background_img:before {
+    content: "Inventaire";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3.375em;
+    font-weight: 400;
+    line-height: 1.26;
+    z-index: 1;
+    font-family: Poppins;
+}
+/* Styles pour l'image à l'intérieur de la div */
+.background_img img { 
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+    background-attachment: fixed;
+}
+
+/* Structure des titres de la navbar */
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+/* Police d'écriture des titres de la navbar */
+.navbar li {
+  text-transform: uppercase;
+  font-family: Poppins;
+}
+
+/* Police d'écriture + couleur des sous menus de la navbar */
+.navbar a {
+  text-decoration: none;
+  font-family: lato;
+  color: #fff;
+}
+
+/* Changement de couleur de l'arrière plan + texte des sous menus lors survol à la souris*/
+.dropdown-menu > li > a:hover {
+    background-color: #b72e35;
+    color: white;
+}
+
+/* Masquer les sous-menus par défaut */
+.navbar .dropdown .dropdown-menu {
+  display: none;
+}
+
+/* Afficher les sous-menus uniquement au survol du menu principal */
+.navbar .dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Masquer les sous-menus lorsque la barre de navigation est en mode mobile */
+.navbar .navbar-toggler:not(.collapsed) + .navbar-collapse .dropdown-menu {
+  display: none;
+}
+
+/* Appliquer un décalage de 70px à la gauche de la navbar-brand */
+.navbar > .container .navbar-brand {
+    margin-left: 70px;
+}
+
+/* Couleur de la navbar transparente par défaut */
+.container .menuBar {
+    background-color: transparent;
+}
+
+/* Couleur rouge de la navbar lors du scroll */
+.navbar-collapse.in {
+    background-color: #b72e35;
+}
+
+/* Couleur de la bordure de la navbar sur mobile */
+.navbar-collapse, .navbar-form {
+    border-color: #e6e6e6;
+}
+
+/* Propriété de la navbar pour lui donner sa couleur rouge lors du scroll */
+.sticky {
+    position: sticky;
+    background-color: #b72e35;
+    color : white;
+    z-index: 999;
+    top: 0;
+    left: 0; 
+    right: 0; 
+}
+
+/* Couleur du texte en blanc */
+.white-text {
+    color: #fff; 
+}
+
+/* Design appliqué sur le logo */
+.logoNamip {
+    width: 125px;
+    height: auto;
+    max-width: 100%; 
+}
+/* Arrondissement de la barre de recherche */
+.navbar .formOutline{
+    border-radius: 10px;
+}
+
+/* Disposition de la barre de recherche */
+.formOutline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Propriété de la barre de recherche*/
+.form-group {
+    margin-bottom: 0;
+    align-self: flex-end;
+    margin-left: 2%; /* Espace entre le bouton de recherche et le texte */
+    flex: 1;
+}
+
+/* Design de la barre de recherche */
+.form-control {
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+    border-bottom: 1px solid #ccc;
+    margin-right: 10px;
+    padding: 5px 10px;
+    font-size: 16px;
+    flex: 1; /* Ajout de cette propriété pour que la barre de recherche prenne tout l'espace disponible */
+    max-width: 100%; /* Ajout de cette propriété pour éviter le dépassement de la largeur de l'écran */
+}
+
+/* Design du bouton de recherche de la barre de recherche */
+.btn-search {
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    padding-left:10px;
+}
+
+/* Permet de rendre le texte blanc dans la barre de recherche */
+#headerSearchInput {
+    color: #FFFFFF;
+}
+
+/* Change text color of the search bar */
+#headerSearchInput::placeholder {
+    color: #FFFFFF;
+}
+
+/* Design du bouton de recherche de la barre de recherche */
+.glyphicon-search {
+    font-size: 20px;
+    color: #000;
+}
+
+/* === Footer === */
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Design appliqué sur l'ensemble du footer */
+.footer-section {
+    z-index: 0;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin-top: 5%;
+    background: #151414;
+}
+/* Bordure séparant les 2 parties du footer */
+.footer-cta {
+    border-bottom: 1px solid #373636;
+}
+/* Design sur les textes de la première partie du footer */
+.single-cta i {
+  color: #b72e35;
+  font-size: 30px;
+  float: left;
+  margin-top: 8px;
+}
+/* Disposition des textes de la première partie du footer */
+.cta-text {
+  padding-left: 15px;
+  display: inline-block;
+  margin-left: 20%;
+}
+
+/* Design des titres h4 de la première partie du footer */
+.cta-text h4 {
+  color: rgb(183, 46, 53);
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
+
+}
+
+/* Design des spans en dessous des titres h4 */
+.cta-text span {
+  color: #FFFF;
+  font-size: 15px;
+}
+
+/* Design des spans en tant que liens */
+.cta-text span a {
+  text-decoration: none;
+  color: #FFFF;
+}
+
+/* Couleur lors du survol avec la souris des spans */
+.cta-text span a:hover {
+  color: rgb(40, 118, 251);
+}
+
+/* Disposition des éléments de la deuxième partie du footer*/
+.footer-content {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  z-index: 2;
+}
+
+/* Disposition du logo */
+.footer-logo {
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+/* Taille du logo*/
+.footer-logo img {
+    max-width: 200px;
+}
+
+/* Style du texte à côté du logo */
+.footer-text p {
+  margin-bottom: 14px;
+  font-size: 14px;
+  color: #7e7e7e;
+  line-height: 28px;
+}
+
+/* Disposition de la partie contenant le logo et le texte */
+.footer-widget{
+    margin-left: 8%;
+}
+
+/* Design du titre "Liens Utiles" */
+.footer-widget-heading h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+/* Design du trait en dessous du titre "Liens Utiles" */
+.footer-widget-heading h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background: #b72e35;
+}
+/* Disposition des éléments en dessous de "Liens utiles" */
+.footer-widget ul li {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  margin-bottom: 12px;
+}
+/* Couleur rouge au survol de la souris d'un des éléments */
+.footer-widget ul li a:hover{
+  color: #b72e35;
+}
+
+/* Couleur et design par défaut des éléments */
+.footer-widget ul li a {
+  color: #878787;
+  text-transform: capitalize;
+}
+
+/* Disposition du container contenant "Liens Utiles" + les éléments qui le compose */
+.container-widget{
+    margin-left:30%;
+}
+
+/* Disposition des icones des réseaux sociaux */
+.social-icons {
+    text-align: center;
+    padding-right: 25%;
+    padding-top: 20%;
+}
+
+/* Design par défaut des icones des réseaux sociaux */
+.social-icons a {
+    display: inline-block;
+    margin: 0 5px;
+    color: white;
+    font-size: 20px;
+}
+
+/* Design lors du survol de la souris des icones des réseaux sociaux */
+.social-icons a:hover {
+    color: rgb(40, 118, 251);
+}
+
+/* Hauteur et largeur des icones des réseaux sociaux */
+.social-icons a i {
+    width: 20px;
+    height: 20px;
+}
+
+/* Design de la partie Copyright */
+.copyright-area{
+  background: #202020;
+  padding: 25px 0;
+}
+
+/* Design du texte de la partie Copyright */
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #878787;
+}
+
+/* Design du lien "NAM-IP" de la partie Copyright */
+.copyright-text p a{
+  color: #b72e35;
+}
+
+
+/* === PageArea === */
+
+/* Disposition du contenu de la page */
+#pageArea {
+    margin-top: 280px;
+    position: relative;
+}
+
+/* Changement de la couleur par défaut des boutons bootstrap */
+.btn-default {
+    background-color: #b72e35;
+}
+
+/* === Responsive Design === */
+
+/* Logo NAM-IP */
+@media (max-width: 768px) {
+    .logoNamip {
+        width: 120px;
+    }
+}
+
+/* Responsive pour le menu de la navbar */
+@media (min-width: 768px) {
+    .navbar-collapse .navbar-nav.navbar-right:last-child {
+        margin-right: -15px;
+        padding-top: 15px;
+    }
+}
+
+/* Responsive pour la barre de recherche */
+@media (min-width: 992px) {
+    .navbar .formOutline {
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+}
+
+/* Responsive pour l'ensemble des éléments de la navbar */
+@media screen and (max-width: 768px) {
+    .container-contact svg,
+    .container-contact a,
+    .container-icons svg,
+    .email,
+    .telephone,
+    .lang-en a,
+    .lang-fr a,
+    .lang-nl a,
+    .lang-text,
+    .form-control,
+    .glyphicon-search {
+        font-size: 10px;
+    }
+
+    .form-control, .glyphicon-search {
+        display: none;
+    }
+}
+
+/* Responsive + logo annimation */
+@media (max-width: 1010px) {
+    .navbar > .container .navbar-brand {
+        animation: slideLeft 0.5s ease-in-out forwards;
+    }
+
+    @keyframes slideLeft {
+        from {
+            margin-left: 70px;
+        }
+
+        to {
+            margin-left: 0px;
+        }
+    }
+}
+
+/* Responsive pour l'ensemble de la widget contenant les liens utiles */
+@media only screen and (max-width: 1010px) { 
+     .container-widget {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin: unset;
+         padding-bottom: 30px;
+     }
+     .footer-links {
+         display: inline-block;
+         list-style-type: none;
+         padding-left: 0;
+         padding: unset;
+         margin: unset;
+     }
+
+      .footer-links li {
+         display: block;
+      }
+}
+
+
+/* Responsive nav bar sublinks*/
+@media (max-width: 767px){
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: black;
+    }
+}
+
+/* Couleur du texte en blanc sur la navbar */
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+        color: white;
+    }
+}
+
+/* Responsive pour le logo */
+@media (max-width: 1200px) {
+    .footer-logo {
+        display: flex;
+        justify-content: center;
+
+    }
+}
+
+/* Responsive pour le texte en dessous du logo */
+@media (max-width: 1010px){
+    .footer-text {
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+/* Rsponsive pour les liens utiles du footer */
+@media (max-width: 1010px) {
+    .footer-widget-heading {
+        text-align: center;
+    }
+
+    .footer-widget-heading h3::before {
+         margin: 0 auto;
+         left: unset;
+    }
+}
+/* Responsive pour les icones des réseaux sociaux */
+@media (max-width: 1010px) {
+    .social-icons {
+        margin: 0 auto;
+        text-align: center;
+        padding: 0;
+    }
+}
+
+/* Responsive pour les titres de la première partie du footer */
+@media (max-width: 1010px) {
+    .row {
+        width: 100%;
+        display: flex;
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+}

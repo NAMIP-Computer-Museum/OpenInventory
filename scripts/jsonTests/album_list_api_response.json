@@ -1,0 +1,61 @@
+{
+    "cancreate": 1,
+    "page": 1,
+    "pages": 1,
+    "perpage": 500,
+    "photoset": [
+        {
+            "can_comment": 1,
+            "count_comments": "0",
+            "count_photos": 2,
+            "count_videos": 0,
+            "count_views": "0",
+            "date_create": "1676277435",
+            "date_update": "1676277484",
+            "description": {
+                "_content": ""
+            },
+            "farm": 66,
+            "id": "72177720305968576",
+            "needs_interstitial": 0,
+            "owner": "197662816@N03",
+            "photos": 2,
+            "primary": "52677140948",
+            "secret": "05b94d2629",
+            "server": "65535",
+            "title": {
+                "_content": "Joestar"
+            },
+            "username": "LorysM13",
+            "videos": 0,
+            "visibility_can_see_set": 1
+        },
+        {
+            "can_comment": 1,
+            "count_comments": "0",
+            "count_photos": 2,
+            "count_videos": 0,
+            "count_views": "0",
+            "date_create": "1676276325",
+            "date_update": "1676465368",
+            "description": {
+                "_content": ""
+            },
+            "farm": 66,
+            "id": "72177720305968286",
+            "needs_interstitial": 0,
+            "owner": "197662816@N03",
+            "photos": 2,
+            "primary": "52676555516",
+            "secret": "fc03241250",
+            "server": "65535",
+            "title": {
+                "_content": "Jojo"
+            },
+            "username": "LorysM13",
+            "videos": 0,
+            "visibility_can_see_set": 1
+        }
+    ],
+    "total": 2
+}

@@ -1,0 +1,949 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CollectiveAccess Pawtucket2 Default Theme\n"
+"POT-Creation-Date: 2016-10-10 22:50-0400\n"
+"PO-Revision-Date: 2023-05-16 12:04+0200\n"
+"Last-Translator: Seth <Seth@collectiveacess.org>\n"
+"Language-Team: CollectiveAccess <info@collectiveaccess.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ../../views\n"
+"X-Poedit-KeywordsList: _t\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: About/Index.php:4 pageFormat/pageHeader.php:139
+msgid "About"
+msgstr "A propos"
+
+#: Browse/browse_refine_subview_html.php:44
+msgid "Filter by"
+msgstr "Filtrer par"
+
+#: Browse/browse_refine_subview_html.php:55 Browse/browse_results_html.php:236
+#: Browse/hierarchy_facet_html.php:50 Browse/list_facet_html.php:72
+#: Details/ca_collections_default_html.php:37
+#: Details/ca_collections_default_html.php:92
+#: Details/ca_collections_default_html.php:100
+#: Details/ca_entities_default_html.php:68
+#: Details/ca_entities_default_html.php:76
+#: Details/ca_occurrences_default_html.php:69
+#: Details/ca_occurrences_default_html.php:77
+#: Details/ca_places_default_html.php:69 Details/ca_places_default_html.php:77
+#: Details/list_facet_html.php:65
+msgid "Loading..."
+msgstr "Chargement..."
+
+#: Browse/browse_refine_subview_html.php:81
+#: Browse/browse_refine_subview_html.php:85
+msgid "and %1 more"
+msgstr "et %1 de plus"
+
+#: Browse/browse_refine_subview_html.php:82 Lightbox/ajax_comments.php:42
+msgid "close"
+msgstr "fermer"
+
+#: Browse/browse_results_html.php:71 Browse/browse_results_html.php:104
+#: Classroom/set_detail_html.php:77 Classroom/set_detail_html.php:117
+#: Lightbox/set_detail_html.php:74 Lightbox/set_detail_html.php:106
+msgid "Sort by:"
+msgstr "Trier par:"
+
+#: Browse/browse_results_html.php:84 Classroom/set_detail_html.php:90
+#: Lightbox/set_detail_html.php:87
+msgid "desc"
+msgstr "desc"
+
+#: Browse/browse_results_html.php:84 Classroom/set_detail_html.php:90
+#: Lightbox/set_detail_html.php:87
+msgid "asc"
+msgstr "asc"
+
+#: Browse/browse_results_html.php:91
+msgid "Result"
+msgstr "Résultats"
+
+#: Browse/browse_results_html.php:91
+msgid "Results"
+msgstr "Résultats"
+
+#: Browse/browse_results_html.php:91
+msgid "%1 %2 %3"
+msgstr "%1 %2 %3"
+
+#: Browse/browse_results_html.php:98
+msgid "Add all results to %1"
+msgstr "Ajouter tous les résultats à %1"
+
+#: Browse/browse_results_html.php:99
+msgid "Select results to add to %1"
+msgstr "Sélectionner les résultats à ajouter à %1"
+
+#: Browse/browse_results_html.php:113 Classroom/set_detail_html.php:139
+#: Lightbox/set_detail_html.php:128
+msgid "Sort order:"
+msgstr "Ordre de tri"
+
+#: Browse/browse_results_html.php:114 Classroom/set_detail_html.php:140
+#: Lightbox/set_detail_html.php:129
+msgid "Ascending"
+msgstr "Ascendant"
+
+#: Browse/browse_results_html.php:115 Classroom/set_detail_html.php:141
+#: Lightbox/set_detail_html.php:130
+msgid "Descending"
+msgstr "Descendant"
+
+#: Browse/browse_results_html.php:125 Lightbox/set_detail_html.php:180
+msgid "Start Over"
+msgstr "Recommencer"
+
+#: Browse/browse_results_html.php:130
+msgid "Download results as:"
+msgstr "Télécharger le résultat sous forme de:"
+
+#: Browse/browse_results_html.php:145
+msgid "Add selected results to %1"
+msgstr "Ajouter les résultats sélectionnés à %1"
+
+#: Browse/browse_results_html.php:194 Search/multisearch_results_html.php:38
+msgid "Did you mean one of these: %1?"
+msgstr "Vouliez-vous dire l'un de ces éléments: %1 ?"
+
+#: Browse/browse_results_html.php:196 Search/multisearch_results_html.php:40
+msgid "Did you mean %1?"
+msgstr "Vouliez-vous dire %1 ?"
+
+#: Browse/browse_results_images_html.php:145
+#: Browse/browse_results_list_html.php:139 Classroom/set_detail_html.php:308
+#: Lightbox/set_detail_html.php:290
+msgid "Next %1"
+msgstr "Suivant %1"
+
+#: Browse/facet_hierarchy_ancestors_html.php:40
+msgid "Top"
+msgstr "Haut de la page"
+
+#: Browse/facet_hierarchy_level_html.php:46
+#: Browse/facet_hierarchy_level_html.php:53
+msgid "View sub-items"
+msgstr "Voir les sous-objets"
+
+#: Browse/list_facet_html.php:64 Details/list_facet_html.php:58
+msgid "Loading"
+msgstr "Chargement"
+
+#: Classroom/form_set_info_html.php:43
+msgid "Response Information"
+msgstr "Information sur la réponse"
+
+#: Classroom/form_set_info_html.php:43 Lightbox/form_set_info_html.php:41
+msgid "%1 Information"
+msgstr "%1 information"
+
+#: Classroom/form_set_info_html.php:54 Lightbox/form_add_set_item_html.php:58
+#: Lightbox/form_set_info_html.php:52 Lightbox/form_user_group_html.php:47
+msgid "Name"
+msgstr "Nom"
+
+#: Classroom/form_set_info_html.php:58 Classroom/list_html.php:158
+#: Lightbox/form_add_set_item_html.php:60 Lightbox/form_set_info_html.php:56
+#: Lightbox/form_user_group_html.php:51 Lightbox/user_group_list_html.php:45
+msgid "Description"
+msgstr "Description"
+
+#: Classroom/form_set_info_html.php:62 Classroom/set_detail_html.php:383
+#: Lightbox/form_set_info_html.php:60 Lightbox/set_detail_html.php:328
+msgid "Save"
+msgstr "Savegarder"
+
+#: Classroom/list_html.php:129 Classroom/list_html.php:134
+msgid "You have no %1."
+msgstr "Vous n'avez pas %1."
+
+#: Classroom/list_html.php:131 Classroom/list_html.php:144
+#: Classroom/set_detail_html.php:173 Lightbox/set_detail_html.php:157
+#: Lightbox/set_list_html.php:51
+msgid "New %1"
+msgstr "Nouveau %1"
+
+#: Classroom/list_html.php:148
+msgid "New Group"
+msgstr "Nouveau groupe"
+
+#: Classroom/list_html.php:152
+msgid "%1 members"
+msgstr "%1 membres"
+
+#: Classroom/list_html.php:160 Lightbox/user_group_list_html.php:47
+msgid "Url to join group"
+msgstr "Url pour rejoindre le groupe"
+
+#: Classroom/list_html.php:161
+msgid "Members"
+msgstr "Membres"
+
+#: Classroom/list_html.php:169 Lightbox/user_group_list_html.php:55
+msgid "Group has no users"
+msgstr "Le groupe n'a pas de membres"
+
+#: Classroom/list_html.php:191 Classroom/set_detail_html.php:420
+#: Lightbox/set_list_html.php:192
+msgid "Delete"
+msgstr "Supprimer"
+
+#: Classroom/list_html.php:192 Classroom/set_detail_html.php:421
+#: Lightbox/set_list_html.php:193
+msgid "Cancel"
+msgstr "Annuler"
+
+#: Classroom/list_html.php:203 Classroom/set_detail_html.php:433
+#: Lightbox/set_list_html.php:204
+msgid ""
+"Really delete <strong><em>%1</em></strong>? This action cannot be undone."
+msgstr ""
+"Voulez-vous réellement  supprimer <strong><em>%1</em></strong>? Cette action "
+"ne peux pas être annulée."
+
+#: Classroom/set_access_html.php:40 Lightbox/set_access_html.php:39
+msgid "%1 Access"
+msgstr "%1 Accès"
+
+#: Classroom/set_access_html.php:49
+msgid "Groups"
+msgstr "Groupes"
+
+#: Classroom/set_access_html.php:52 Classroom/set_access_html.php:63
+#: Lightbox/set_access_html.php:51 Lightbox/set_access_html.php:64
+msgid "remove access"
+msgstr "supprimer les accès"
+
+#: Classroom/set_access_html.php:58 Lightbox/set_access_html.php:59
+#: Lightbox/user_group_list_html.php:49
+msgid "Users"
+msgstr "Utilisateurs"
+
+#: Classroom/set_access_html.php:65 Lightbox/set_access_html.php:66
+msgid "Owner"
+msgstr "Propriétaire"
+
+#: Classroom/set_detail_html.php:127 Lightbox/set_detail_html.php:116
+msgid "Refine sort by:"
+msgstr "Affiner le tri par: "
+
+#: Classroom/set_detail_html.php:145 Lightbox/set_detail_html.php:134
+msgid "All %1"
+msgstr "Tous %1"
+
+#: Classroom/set_detail_html.php:150 Lightbox/set_detail_html.php:139
+msgid "Edit Name/Description"
+msgstr "Modifier Nom/Description"
+
+#: Classroom/set_detail_html.php:154 Lightbox/form_share_set_html.php:37
+#: Lightbox/set_detail_html.php:140
+msgid "Share %1"
+msgstr "Partager %1"
+
+#: Classroom/set_detail_html.php:155 Lightbox/set_detail_html.php:141
+msgid "Manage %1 Access"
+msgstr "Gérer %1 accès"
+
+#: Classroom/set_detail_html.php:160 Lightbox/set_detail_html.php:145
+msgid "Start presentation"
+msgstr "Démarrer une présentation"
+
+#: Classroom/set_detail_html.php:165 Lightbox/set_detail_html.php:150
+msgid "Download as:"
+msgstr "Télécharger comme:"
+
+#: Classroom/set_detail_html.php:175 Lightbox/set_detail_html.php:159
+#: Lightbox/set_list_html.php:53
+msgid "New User Group"
+msgstr "Nouveau groupe d'utilisateurs"
+
+#: Classroom/set_detail_html.php:179 Lightbox/set_detail_html.php:163
+#: Lightbox/set_list_html.php:57
+msgid "Manage Your User Groups"
+msgstr "Gérer vos groupes d'utilisateurs"
+
+#: Classroom/set_detail_html.php:213
+msgid "Created by"
+msgstr "Créé par"
+
+#: Classroom/set_detail_html.php:229 Lightbox/set_detail_html.php:213
+msgid ""
+"Displaying %1 view because required data is not available to generate a %1 "
+"view"
+msgstr ""
+"Affichage de la vue %1 car les données requises ne sont pas disponibles pour "
+"générer une vue %1"
+
+#: Classroom/set_detail_html.php:313 Lightbox/set_detail_html.php:295
+msgid "Click the %1 near items throughout the site to add items to this %2."
+msgstr ""
+"Cliquez sur le %1 près des articles dans le site pour ajouter des articles à "
+"ce %2."
+
+#: Classroom/set_detail_html.php:353
+msgid "Respond"
+msgstr "Répondre"
+
+#: Classroom/set_detail_html.php:359
+msgid "%1 Response%2"
+msgstr "%1 Réponse %2"
+
+#: Classroom/set_detail_html.php:375
+msgid "Comments"
+msgstr "Commentaires"
+
+#: Classroom/set_detail_html.php:379 Lightbox/set_detail_html.php:323
+msgid "add your comment"
+msgstr "ajouter votre commentaire"
+
+#: Collections/index_html.php:21
+msgid "No collections available"
+msgstr "Il n'y a pas de collections disponibles"
+
+#: Contact/form_html.php:7 Contact/success_html.php:1
+#: pageFormat/pageHeader.php:143
+msgid "Contact"
+msgstr "Contact"
+
+#: Contact/success_html.php:2
+msgid "Your message has been sent."
+msgstr "Votre message a été envoyé."
+
+#: Contribute/spam_check_html.php:40
+msgid "Simple Math Quiz (to prevent SPAMbots)"
+msgstr "Question de math simple (pour prévenir des spam)"
+
+#: Contribute/spam_check_html.php:55
+msgid "Please correctly answer the security question."
+msgstr "Veuillez répondre correctement à la question de sécurité."
+
+#: Contribute/terms_and_conditions_check_html.php:38
+msgid "Terms and conditions"
+msgstr "Termes et conditions"
+
+#: Contribute/terms_and_conditions_check_html.php:42
+msgid "I agree to the Terms and Conditions set out herein"
+msgstr "J'accepte les conditions générales énoncées dans le présent document."
+
+#: Contribute/terms_and_conditions_check_html.php:52
+msgid "You must agree to the terms and conditions before proceeding."
+msgstr "Vous devez accepter les termes et conditions avant de poursuivre."
+
+#: Details/annotations_html.php:35
+msgid "Featured clips (%1)"
+msgstr "Clips à l'honneur (%1)"
+
+#: Details/form_comments_html.php:5
+msgid "Add your tags and comment"
+msgstr "Ajoutez vos tags et commentaires"
+
+#: Details/form_comments_html.php:13
+msgid "Tags"
+msgstr "Tags"
+
+#: Details/form_comments_html.php:13
+msgid "tags separated by commas"
+msgstr "les tags doivent être séparés par des virgulles"
+
+#: Details/form_comments_html.php:14
+msgid "Comment"
+msgstr "Commentaire"
+
+#: Details/form_share_html.php:23
+msgid "Share this item"
+msgstr "Partager cet objet"
+
+#: Details/form_share_html.php:34
+msgid "To e-mail address"
+msgstr "Adresse e-mail a utiliser"
+
+#: Details/form_share_html.php:34
+msgid "Enter multiple addresses separated by commas"
+msgstr "Entrez plusieurs adresses séparées par des virgules"
+
+#: Details/form_share_html.php:38
+msgid "Your name"
+msgstr "Votre nom"
+
+#: Details/form_share_html.php:42
+msgid "Your email address"
+msgstr "Votre adresse mail"
+
+#: Details/form_share_html.php:52 LoginReg/form_register_html.php:46
+msgid "Security Question"
+msgstr "Question de sécurité"
+
+#: Details/form_share_html.php:68
+msgid "Subject"
+msgstr "Sujet"
+
+#: Details/form_share_html.php:72
+msgid "Message"
+msgstr "Message"
+
+#: Details/viewer_help_html.php:3
+msgid "How to use the image viewer"
+msgstr "Comment utiliser le visualiseur d'images"
+
+#: Details/viewer_help_html.php:6
+msgid ""
+"Click and drag with the mouse to pan across the image. You can use the "
+"mousewheel or trackpad to zoom in or out of the image. \n"
+"\tThe <code>+</code> and <code>-</code> buttons and zoom slider bar at the "
+"top of viewer may also be used. The viewer displays the image at full "
+"resolution, loading \n"
+"\tdetail as you zoom. The more you zoom the more detail will be visible.\n"
+"\t"
+msgstr ""
+"Cliquez et faites glisser la souris pour obtenir une vue panoramique de "
+"l'image. Vous pouvez utiliser la molette de la souris ou le pavé tactile "
+"pour effectuer un zoom avant ou arrière sur l'image. \n"
+"\tLe <code>+</code> et <code>-</code> bouttons et la barre de défilement du "
+"zoom en haut du visualiseur d'images peut également être utilisée. Le "
+"visualiseur affiche les images en pleine résolution, après chargement \n"
+"\tdétails au fur et à mesure que vous zoomez. Plus vous zoomez, plus les "
+"détails sont visibles.\n"
+"\t"
+
+#: Details/viewer_help_html.php:12
+msgid ""
+"You may add text annotations to the image. Each annotation is associated "
+"with a point, rectangular or polygon area on the image. To create an "
+"annotation\n"
+"\tselect the point (line icon), rectangle or polygon tool from the tool bar, "
+"then click on the location you wish to annotate. "
+msgstr ""
+"Vous pouvez ajouter des annotations textuelles à l'image. Chaque annotation "
+"est associée à un point, une zone rectangulaire ou polygonale sur l'image. "
+"Pour créer une annotation\n"
+"\tsélectionnez l'outil point (icône de ligne), rectangle ou polygone dans la "
+"barre d'outils, puis cliquez sur l'endroit que vous souhaitez annoter."
+
+#: Details/viewer_help_html.php:16
+msgid ""
+"For point annotations a line will appear connecting the location with a text "
+"box. The location will also be highlighted with a red translucent circle. "
+"You may drag both the point of the line and the text box to adjust position."
+msgstr ""
+"Pour les annotations de points, une ligne reliant l'emplacement à une zone "
+"de texte apparaît. L'emplacement est également mis en évidence par un cercle "
+"rouge translucide. Vous pouvez faire glisser le point de la ligne et la zone "
+"de texte pour ajuster la position."
+
+#: Details/viewer_help_html.php:19
+msgid ""
+"For rectangular annotations a rectangle will appear with a text box below "
+"and adjacent. Drag on the edges at the highlighted locations to resize the "
+"rectangle. Drag the rectangle on its interior to reposition it."
+msgstr ""
+"Pour les annotations rectangulaires, un rectangle apparaît avec une zone de "
+"texte en dessous et à côté. Faites glisser les bords aux endroits mis en "
+"évidence pour redimensionner le rectangle. Faites glisser le rectangle à "
+"l'intérieur pour le repositionner."
+
+#: Details/viewer_help_html.php:22
+msgid ""
+"For polygon annotations click \n"
+"\trepeatedly on the image to establish line segments at various locations "
+"for the polygon shape. The shape may have any number of points, and "
+"consequently sides. To complete the shape double-click\n"
+"\twhen placing the final point or click on the pan, rectangle or point "
+"tools. You can adjust the shape by clicking and dragging on any point. To "
+"move the shape, click and drag on the outline,\n"
+"\taway from any point. To remove a point click on it while holding down the "
+"option key. To add a point click on the outline, away from any point, while "
+"holding down the option key.\n"
+"\t"
+msgstr ""
+"Pour les annotations de polygones, cliquez sur \n"
+"\tl'image à plusieurs reprises afin d'établir des segments de ligne à "
+"différents endroits pour la forme du polygone. La forme peut avoir un nombre "
+"quelconque de points, et donc de côtés. Pour compléter la forme, double-"
+"cliquez\n"
+"\tlorsque vous placez le dernier point ou cliquez sur les outils "
+"panoramique, rectangle ou point. Vous pouvez ajuster la forme en cliquant "
+"sur n'importe quel point et en le faisant glisser. Pour déplacer la forme, "
+"cliquez sur le contour et faites-le glisser,\n"
+"\tde n'importe quel point. Pour supprimer un point, cliquez dessus tout en "
+"maintenant la touche option enfoncée. Pour ajouter un point, cliquez sur le "
+"contour, loin de tout point, tout en maintenant la touche option enfoncée.\n"
+"\t"
+
+#: Details/viewer_help_html.php:29
+msgid ""
+"You may also drag the text box into position. Click on the text box to add "
+"text. All changes to annotations are saved automatically as you work."
+msgstr ""
+"Vous pouvez également faire glisser la zone de texte en position. Cliquez "
+"sur la zone de texte pour ajouter du texte. Toutes les modifications "
+"apportées aux annotations sont enregistrées automatiquement au fur et à "
+"mesure que vous travaillez."
+
+#: Details/viewer_help_html.php:32
+msgid "Keyboard shortcuts"
+msgstr "Raccourcis clavier"
+
+#: Details/viewer_help_html.php:35
+msgid ""
+"Single-key shortcuts are available for common actions. Pressing the key is "
+"equivalent to the corresponding mouse action."
+msgstr ""
+"Des raccourcis à une touche sont disponibles pour les actions courantes. Le "
+"fait d'appuyer sur une touche équivaut à l'action correspondante de la "
+"souris."
+
+#: Details/viewer_help_html.php:38
+msgid "%1 to activate image panning"
+msgstr "%1 pour activer le panoramique sur l'image"
+
+#: Details/viewer_help_html.php:39
+msgid "%1 to select the rectangle annotation tool"
+msgstr "%1 pour sélectionner l'outil d'annotation rectangulaire"
+
+#: Details/viewer_help_html.php:40
+msgid "%1 to select the point annotation tool"
+msgstr "%1 pour sélectionner l'outil d'annotation de points"
+
+#: Details/viewer_help_html.php:41
+msgid "%1 to select the polygon annotation tool"
+msgstr "%1 pour sélectionner l'outil d'annotation polygonale"
+
+#: Details/viewer_help_html.php:42
+msgid "%1 to delete the selected annotation"
+msgstr "%1 pour supprimer l'annotation sélectionnée"
+
+#: Details/viewer_help_html.php:43
+msgid "%1 to toggle visibility of the image overview"
+msgstr "%1 pour basculer la visibilité de la vue d'ensemble de l'image"
+
+#: Details/viewer_help_html.php:44
+msgid "%1 to return the image to the centered, zoomed out \"home\" position"
+msgstr "%1 pour ramener l'image à la position centrée et zoomée initiale."
+
+#: Details/viewer_help_html.php:45
+msgid "%1 to toggle visibility of viewer controls"
+msgstr "%1 pour basculer la visibilité des contrôles du visualiseur d'images"
+
+#: Details/viewer_help_html.php:46
+msgid "%1 to hide controls and labels"
+msgstr "%1 pour masquer les contrôles et les étiquettes"
+
+#: Details/viewer_help_html.php:47
+msgid "%1 or %2 to zoom in in small increments"
+msgstr "%1 ou %2 pour effectuer un zoom par petits incréments"
+
+#: Details/viewer_help_html.php:48
+msgid "%1 or %2 to zoom out in small increments"
+msgstr "%1 ou %2 pour effectuer un zoom arrière par petits incréments"
+
+#: Details/viewer_help_html.php:49
+msgid "%1, %2, %3 or %4 to pan the image in small increments"
+msgstr ""
+"%1, %2, %3 ou %4 pour effectuer un panoramique de l'image par petits "
+"incréments"
+
+#: Gallery/detail_html.php:61
+msgid "more"
+msgstr "plus"
+
+#: Gallery/index_html.php:37 Gallery/set_info_html.php:12
+msgid "item"
+msgstr "objet"
+
+#: Gallery/index_html.php:37 Gallery/set_info_html.php:12
+msgid "items"
+msgstr "objets"
+
+#: Gallery/set_info_html.php:15
+msgid "view %1"
+msgstr "voir %1"
+
+#: Gallery/set_item_info_html.php:13
+msgid "VIEW RECORD"
+msgstr "VOIR ENREGISTREMENT"
+
+#: Lightbox/ajax_comments.php:44
+msgid "comment"
+msgstr "commentaire"
+
+#: Lightbox/ajax_comments.php:44
+msgid "comments"
+msgstr "commentaires"
+
+#: Lightbox/exportTemplates/ca_objects_sets_pdf_html.php:53
+msgid "%1 item"
+msgstr "%1 objet"
+
+#: Lightbox/exportTemplates/ca_objects_sets_pdf_html.php:53
+msgid "%1 items"
+msgstr "%1 objets"
+
+#: Lightbox/form_add_set_item_html.php:38
+msgid "Add item to %1"
+msgstr "Ajouter l'objet à %1"
+
+#: Lightbox/form_add_set_item_html.php:49
+msgid "Select a %1"
+msgstr "Sélectionner un %1"
+
+#: Lightbox/form_add_set_item_html.php:56
+msgid "OR<br/>Create a New %1"
+msgstr "OU<br/>Créer un nouveau %1"
+
+#: Lightbox/form_add_set_item_html.php:58
+msgid "Your %1"
+msgstr "Votre %1"
+
+#: Lightbox/form_share_set_html.php:52
+msgid "Select a group"
+msgstr "Choisir un groupe"
+
+#: Lightbox/form_share_set_html.php:53
+msgid "Select a user group"
+msgstr "Sélectionner un groupe d'utilisateurs"
+
+#: Lightbox/form_share_set_html.php:63
+msgid "OR enter a user"
+msgstr "OU entrez un utilisateur"
+
+#: Lightbox/form_share_set_html.php:63
+msgid "Enter a user"
+msgstr "Entrez un utilisateur"
+
+#: Lightbox/form_share_set_html.php:63
+msgid "email address or multiple addresses separated by comma"
+msgstr "adresse e-mail ou plusieurs adresses séparées par une virgule"
+
+#: Lightbox/form_share_set_html.php:68
+msgid "Access"
+msgstr "Accès"
+
+#: Lightbox/form_share_set_html.php:69
+msgid "Can read"
+msgstr "Peux lire"
+
+#: Lightbox/form_share_set_html.php:70
+msgid "Can edit"
+msgstr "Peux éditer"
+
+#: Lightbox/present_html.php:64
+msgid "Back to %1"
+msgstr "Retour à %1"
+
+#: Lightbox/set_access_html.php:48
+msgid "User Groups"
+msgstr "Groupes d'utilisateurs"
+
+#: Lightbox/set_access_html.php:51 Lightbox/set_access_html.php:64
+msgid "change access"
+msgstr "changer l'accès"
+
+#: Lightbox/set_access_html.php:52 Lightbox/set_access_html.php:66
+msgid "write access"
+msgstr "écrire l'acces"
+
+#: Lightbox/set_access_html.php:52 Lightbox/set_access_html.php:66
+msgid "read access"
+msgstr "lire l'accès"
+
+#: Lightbox/set_access_html.php:53 Lightbox/set_access_html.php:67
+msgid "Change to read access"
+msgstr "Changer pour lire l'accès"
+
+#: Lightbox/set_access_html.php:53 Lightbox/set_access_html.php:67
+msgid "Change to write access"
+msgstr "Changer l'accès en écriture"
+
+#: Lightbox/set_comment_html.php:37
+msgid "Remove comment"
+msgstr "Retirer le commentaire"
+
+#: Lightbox/set_detail_html.php:297
+msgid "There are no items in this %1"
+msgstr "Il n'y a pas d'objets dans cette %1"
+
+#: Lightbox/set_detail_html.php:312
+msgid "You may not edit this set, you have read only access."
+msgstr ""
+"Vous ne pouvez pas modifier cet ensemble, vous ne disposez que de l'accès en "
+"lecture"
+
+#: Lightbox/set_detail_item_html.php:59
+msgid "View Item Detail"
+msgstr "Voir les informations détaillées"
+
+#: Lightbox/set_detail_item_html.php:62
+msgid "Enlarge Image"
+msgstr "Agrandir l'image"
+
+#: Lightbox/set_list_html.php:99
+msgid "Activity stream"
+msgstr "Flux d'activités"
+
+#: Lightbox/set_list_html.php:111
+msgid "added an item to %1"
+msgstr "a ajouté un objet dans %1"
+
+#: Lightbox/set_list_html.php:115
+msgid "changed an item in %1"
+msgstr "a changé un objet dans %1"
+
+#: Lightbox/set_list_html.php:119
+msgid "removed and item from %1"
+msgstr " supprimé et objet de %1"
+
+#: Lightbox/set_list_html.php:129
+msgid "shared %1 with %2"
+msgstr "partagé %1 avec %2"
+
+#: Lightbox/set_list_html.php:133
+msgid "changed how they share %1 with %2"
+msgstr "a modifié la façon dont il partage %1 avec %2"
+
+#: Lightbox/set_list_html.php:137
+msgid "unshared %1 with %2"
+msgstr "non partagé %1 avec %2"
+
+#: Lightbox/set_list_html.php:145
+msgid "commented on %1"
+msgstr "a commenté %1"
+
+#: Lightbox/set_list_html.php:147
+msgid "commented on an item in %1"
+msgstr "a commenté un élément dans %1"
+
+#: Lightbox/set_list_html.php:155
+msgid "made %1"
+msgstr "fait %1"
+
+#: Lightbox/set_list_html.php:159
+msgid "edited %1"
+msgstr "édité %4"
+
+#: Lightbox/set_list_html.php:163
+msgid "deleted %1"
+msgstr "supprimé %1"
+
+#: Lightbox/set_list_item_placeholder_html.php:33
+msgid "Create your first %1"
+msgstr "Créez votre premier %1"
+
+#: Lightbox/user_group_list_html.php:36
+msgid "Your User Groups"
+msgstr "Vos groupes d'utilisateurs"
+
+#: Lightbox/user_group_list_html.php:61
+msgid "You have made no user groups"
+msgstr "Vous n'avez créé aucun groupe d'utilisateurs"
+
+#: LoginReg/form_login_html.php:10 pageFormat/pageHeader.php:47
+msgid "Login"
+msgstr "Se connecter"
+
+#: LoginReg/form_login_html.php:18
+msgid "E-mail address"
+msgstr "Adresse e-mail"
+
+#: LoginReg/form_login_html.php:24
+msgid "Password"
+msgstr "Mot de passe"
+
+#: LoginReg/form_login_html.php:41 LoginReg/form_login_html.php:50
+msgid "Click here to register"
+msgstr "Cliquez ici pour vous inscrire"
+
+#: LoginReg/form_login_html.php:46 LoginReg/form_login_html.php:52
+msgid "Forgot your password?"
+msgstr "Mot de passe oublié ?"
+
+#: LoginReg/form_profile_html.php:15
+msgid "Profile"
+msgstr "Profil"
+
+#: LoginReg/form_profile_html.php:46
+msgid "Reset Password"
+msgstr "Réinitialiser votre mot de passe"
+
+#: LoginReg/form_profile_html.php:47
+msgid "Only enter if you would like to change your current password"
+msgstr "Cliquez que si vous souhaitez modifier votre mot de passe actuel."
+
+#: LoginReg/form_profile_html.php:50 LoginReg/form_register_html.php:64
+msgid "Re-Type password"
+msgstr "Retapez le mot de passe"
+
+#: LoginReg/form_register_html.php:16 pageFormat/pageHeader.php:48
+msgid "Register"
+msgstr "S'inscrire"
+
+#: LoginReg/form_reset_html.php:8
+msgid "Reset Your Password"
+msgstr "Réinitialiser votre mot de passe  "
+
+#: LoginReg/form_reset_html.php:17
+msgid "Instructions have been sent to the e-mail address you provided."
+msgstr ""
+"Les instructions ont été envoyées à l'adresse électronique que vous avez "
+"fournie."
+
+#: LoginReg/form_reset_html.php:20
+msgid ""
+"You should receive the instructions within the hour. If you do not, contact "
+"us for assistance at "
+msgstr ""
+"Vous devriez recevoir les instructions dans l'heure qui suit. Si ce n'est "
+"pas le cas, contactez-nous pour obtenir de l'aide à l'adresse suivante "
+
+#: LoginReg/form_reset_html.php:29
+msgid "Your password has been reset!"
+msgstr "Votre mot de passe a été changé !"
+
+#: LoginReg/form_reset_html.php:31
+msgid "You may now"
+msgstr "Vous devez maintenant"
+
+#: LoginReg/form_reset_html.php:31
+msgid "login"
+msgstr "Se connecter"
+
+#: LoginReg/form_reset_html.php:40
+msgid ""
+"Please confirm you have copied the provided link properly.  If you continue "
+"to have difficulty, contact us for assistance,"
+msgstr ""
+"Veuillez confirmer que vous avez copié correctement le lien fourni.  Si vous "
+"rencontrez toujours des difficultés, contactez-nous pour obtenir de l'aide,"
+
+#: LoginReg/form_reset_html.php:48
+msgid "Please enter your new password."
+msgstr "Veuillez entrer le nouveau mot de passe"
+
+#: LoginReg/form_reset_html.php:53
+msgid "New password"
+msgstr "Nouveau mot de passe"
+
+#: LoginReg/form_reset_html.php:59
+msgid "Confirm new password"
+msgstr "Confirmer le nouveau mot de passe"
+
+#: LoginReg/form_reset_html.php:78
+msgid ""
+"To reset your password enter the e-mail address you used to register below. "
+"A message will be sent to the address with instructions on how to reset your "
+"password."
+msgstr ""
+"Pour réinitialiser votre mot de passe, saisissez ci-dessous l'adresse "
+"électronique que vous avez utilisée pour vous inscrire. Un message sera "
+"envoyé à cette adresse avec des instructions sur la manière de réinitialiser "
+"votre mot de passe."
+
+#: LoginReg/form_reset_html.php:81
+msgid "E-mail"
+msgstr "Adresse e-mail"
+
+#: Search/ca_collections_search_subview_html.php:55
+#: Search/ca_entities_search_subview_html.php:49
+#: Search/ca_objects_search_subview_html.php:56
+#: Search/ca_occurrences_search_subview_html.php:49
+#: Search/ca_places_search_subview_html.php:49
+msgid "Full results"
+msgstr "Tous les résultats"
+
+#: Search/ca_collections_search_subview_html.php:59
+#: Search/ca_entities_search_subview_html.php:53
+#: Search/ca_objects_search_subview_html.php:61
+#: Search/ca_occurrences_search_subview_html.php:53
+#: Search/ca_places_search_subview_html.php:53
+msgid "sort by:"
+msgstr "trier par:"
+
+#: Search/multisearch_results_html.php:19
+msgid "Search results for %1"
+msgstr "Rechercher des résultats pour %1"
+
+#: Search/multisearch_results_html.php:33
+msgid "Your search for %1 returned no results"
+msgstr "Votre recherche pour %1 n'a pas retourné de résultats"
+
+#: bundles/ca_search_form_attributes.php:52
+#: bundles/ca_simple_form_attributes.php:52
+msgid "Locale "
+msgstr "Local"
+
+#: bundles/representation_viewer_html.php:47
+msgid "Previous"
+msgstr "Précédent"
+
+#: bundles/representation_viewer_html.php:48
+msgid "Next"
+msgstr "Suivant"
+
+#: pageFormat/browseMenu.php:38 pageFormat/browseMenu.php:50
+#: pageFormat/browseMenu.php:59
+msgid "Browse"
+msgstr "Parcourir"
+
+#: pageFormat/browseMenuFacets.php:36
+msgid "Browse by:"
+msgstr "Parcourir par:"
+
+#: pageFormat/browseMenuFacets.php:49
+msgid "Filter facet"
+msgstr "Facette du filtre"
+
+#: pageFormat/browseMenuFacets.php:53
+msgid ""
+"Browse all %1 &nbsp;<span class=\"glyphicon glyphicon-arrow-right\"></span>"
+msgstr ""
+"Parcourir tous les %1 &nbsp;<span class=\"glyphicon glyphicon-arrow-"
+"right\"></span>"
+
+#: pageFormat/browseMenuFacets.php:59
+msgid "No facets available"
+msgstr "Pas de facettes disponibles"
+
+#: pageFormat/pageHeader.php:44
+msgid "User Profile"
+msgstr "Profil"
+
+#: pageFormat/pageHeader.php:45
+msgid "Logout"
+msgstr "Se déconnecter"
+
+#: pageFormat/pageHeader.php:141
+msgid "Advanced Search"
+msgstr "Recherche"
+
+#: pageFormat/pageHeader.php:142
+msgid "Gallery"
+msgstr "Galerie"
+
+# Config ajoutée
+msgid "mainSite"
+msgstr "Site principal"
+
+#: system/configuration_error_install_html.php:36
+msgid ""
+"<div class='error'>An error in your system configuration has been detected</"
+"div>\n"
+"\t    General installation instructions can be found\n"
+"\t    <a href='http://wiki.collectiveaccess.org/index.php?"
+"title=Installation_(Pawtucket)' target='_blank'>here</a>.\n"
+"\t    For more specific hints on the existing issues please have a look at "
+"the messages below."
+msgstr ""
+"<div class='error'>Une erreur a été détectée dans la configuration de votre "
+"système</div>\n"
+"\t    Les instructions générales d'installation peuvent être consultées\n"
+"\t    <a href='http://wiki.collectiveaccess.org/index.php?"
+"title=Installation_(Pawtucket)' target='_blank'>ici</a>.\n"
+"\t    Pour des conseils plus spécifiques sur les problèmes existants, "
+"veuillez consulter les messages ci-dessous."
